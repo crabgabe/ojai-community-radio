@@ -1,4 +1,4 @@
-FROM centos:8
+FROM rockylinux/rockylinux:8
 LABEL maintainer="GabeCastanon"
 LABEL contant="havecastanon@gmail.com"
 RUN yum -y update && yum clean all
